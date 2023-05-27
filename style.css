@@ -96,28 +96,27 @@ h3 {
   padding: 10px;
 }
 
-.explore-more img{
-    filter: invert(1);
-    width: 75px;
-    height: 35px;
+.explore-more img {
+  filter: invert(1);
+  width: 75px;
+  height: 35px;
 }
 
-.explore-more{
-    color: #e5ecff;
-    font-size: 25px;
-    display: flex;
-    margin-top: 15px;
+.explore-more {
+  color: #e5ecff;
+  font-size: 25px;
+  display: flex;
+  margin-top: 15px;
 }
-.items
-{
-    display: flex;
-    flex-direction: row;
-    margin-top: 15px;
-    gap: 25px;
+.items {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  gap: 25px;
 }
 .card {
   overflow: hidden;
-  padding: 10px; 
+  padding: 10px;
 }
 
 .card-pic img {
@@ -144,28 +143,29 @@ h3 {
 .card-content p {
   text-align: justify;
   padding: 10px;
+  font-size: 15px;
 }
 
 .card-content h4 {
-    text-align: center;
-    padding: 10px;
-    color: #112049;
-  }
+  text-align: center;
+  padding: 10px;
+  color: #112049;
+}
 
 .tags {
   display: flex;
   flex-direction: row;
-  gap: 5px;
-  padding: 10px;
 }
 
 .tag {
   margin: 5px;
   width: 5vw;
-  height: 3vh;
+  height: 4vh;
   color: #e5ecff;
   background-color: #112049;
-  border-radius: 5px;
+  border-radius: 10px;
+  font-size: small;
+  padding: 4px;
   text-align: center;
 }
 
@@ -185,6 +185,7 @@ input:focus {
   padding: 20px;
   color: #112049;
 }
+
 .get-in-touch input {
   width: 45vw;
   height: 7vh;
